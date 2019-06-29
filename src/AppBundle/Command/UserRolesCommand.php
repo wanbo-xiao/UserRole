@@ -3,6 +3,7 @@
 namespace AppBundle\Command;
 
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use AppBundle\Controller\UserRolesController;
@@ -20,10 +21,17 @@ class UserRolesCommand extends Command
     protected function configure()
     {
         $this->setName('app:demo');
+        $this->addArgument('userID', InputArgument::OPTIONAL, 'Test with your own user id');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->controller->demoAction();
+        $userId = $input->getArgument('userID');
+        if ($userId) {
+            $this->controller->getSubOrdinates($userId);
+        } else {
+            $this->controller->demoAction();
+        }
+
     }
 }

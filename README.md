@@ -66,7 +66,7 @@ Project Deployment
 ------------
 1. git clone the whole project
 2. run `composer install`
-3. run demo `bin/console app:demo`
+3. run demo `bin/console app:demo` or `bin/console app:demo {userid}`
 4. run test `./vendor/bin/simple-phpunit`
    
 ![](/image/running.png)
@@ -74,4 +74,7 @@ AND
 ![](/image/testing.png)
 
 
-
+Test with your own data
+-----------
+1. replace `app/Resources/role.json` and `app/Resources/user.json` with your own data
+2. run `bin/console app:demo {userid}` replace {userid} with a real int id.
