@@ -69,8 +69,9 @@ Project Deployment
 3. run demo `bin/console app:demo`
 4. run test `./vendor/bin/simple-phpunit`
    
-![image](http://github.com/wanbo-xiao/UserRole/raw/master/image/running.png)
+![](/image/running.png)
+AND
+![](/image/testing.png)
 
-![image](http://github.com/wanbo-xiao/UserRole/raw/master/image/testing.png)
 
 
