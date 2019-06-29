@@ -1,0 +1,53 @@
+[
+  {
+    "Id": 1,
+    "Name": "Adam Admin",
+    "Role": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Emily Employee",
+    "Role": 4
+  },
+  {
+    "Id": 3,
+    "Name": "Sam Supervisor",
+    "Role": 3
+  },
+  {
+    "Id": 4,
+    "Name": "Mary Manager",
+    "Role": 2
+  },
+  {
+    "Id": 5,
+    "Name": "Steve Trainer",
+    "Role": 5
+  },
+  {
+    "Id": 6,
+    "Name": "User Role7",
+    "Role": 7
+  },
+  {
+    "Id": 7,
+    "Name": "User Role10",
+    "Role": 10
+  },
+  {
+    "Id": 8,
+    "Name": "Another User Role7",
+    "Role": 7
+  },
+  {
+    "Id": 9,
+    "Name": "User Role8",
+    "Role": 8
+  },
+  {
+    "Id": 10,
+    "Name": "User Role11",
+    "Role": 11
+  }
+
+]

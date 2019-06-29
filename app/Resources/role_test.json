@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Name": "System Administrator",
+    "Parent": 0
+  },
+  {
+    "Id": 2,
+    "Name": "Location Manager",
+    "Parent": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Supervisor",
+    "Parent": 2
+  },
+  {
+    "Id": 4,
+    "Name": "Employee",
+    "Parent": 3
+  },
+  {
+    "Id": 5,
+    "Name": "Trainer",
+    "Parent": 3
+  },
+  {
+    "Id": 9,
+    "Name": "Role9",
+    "Parent": 7
+  },
+  {
+    "Id": 10,
+    "Name": "Role10",
+    "Parent": 7
+  },
+  {
+    "Id": 11,
+    "Name": "Role11",
+    "Parent": 6
+  },
+  {
+    "Id": 12,
+    "Name": "Role12",
+    "Parent": 11
+  },
+  {
+    "Id": 6,
+    "Name": "Role6",
+    "Parent": 2
+  },
+  {
+    "Id": 7,
+    "Name": "Role7",
+    "Parent": 6
+  },
+  {
+    "Id": 8,
+    "Name": "Role8",
+    "Parent": 7
+  },
+  {
+    "Id": 13,
+    "Name": "Role13 in another tree",
+    "Parent": 0
+  },
+  {
+    "Id": 14,
+    "Name": "Role14 in another tree",
+    "Parent": 13
+  },
+  {
+    "Id": 15,
+    "Name": "Role15 in another tree",
+    "Parent": 14
+  },
+  {
+    "Id": 16,
+    "Name": "Role16 in another tree",
+    "Parent": 15
+  }
+]
