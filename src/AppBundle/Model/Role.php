@@ -20,6 +20,8 @@ class Role
             foreach ($rolesArray as $role) {
                 $this->insertNewRole($role);
             }
+        } else {
+            throw new \Exception('File error: Role input is not a valid json file');
         }
     }
 
@@ -52,6 +54,8 @@ class Role
 
                 $this->addChildToParentById($role['Id'], $role['Parent']);
             }
+        } else {
+            throw new \Exception('File format error: Make sure each role has 3 elements(Id, Name and Parent)');
         }
     }
 
