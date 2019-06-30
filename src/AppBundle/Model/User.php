@@ -21,6 +21,8 @@ class User
             foreach ($usersArray as $user) {
                 $this->insertNewUser($user);
             }
+        } else {
+            throw new \Exception('File error: User input is not a valid json file');
         }
     }
 
@@ -69,6 +71,8 @@ class User
                     'Role' => $user['Role'],
                 ];
             }
+        } else {
+            throw new \Exception('File format error: Make sure each user has 3 elements(Id, Name and Role)');
         }
     }
 
